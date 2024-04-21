@@ -1,0 +1,27 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "apis/*": ["./src/apis/*"],
+      "assets/*": ["./src/assets/*"],
+      "boot/*": ["./src/boot/*"],
+      "components/*": ["./src/components/*"],
+      "composables/*": ["./src/composables/*"],
+      "css/*": ["./src/css/*"],
+      "directives/*": ["./src/directives/*"],
+      "enums/*": ["./src/enums/*"],
+      "i18n/*": ["./src/i18n/*"],
+      "layouts/*": ["./src/layouts/*"],
+      "pages/*": ["./src/pages/*"],
+      "partials/*": ["./src/partials/*"],
+      "plugins": ["./src/plugins/*"],
+      "repositories/*": ["./src/repositories/*"],
+      "router": ["./src/router/*"],
+      "stores/*": ["./src/stores/*"],
+      "types/*": ["./src/types/*"],
+      "utils/*": ["./src/utils/*"]
+    }
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.d.ts", "./src/**/*.vue"]
+}
